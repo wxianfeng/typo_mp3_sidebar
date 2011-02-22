@@ -1,0 +1,10 @@
+h1. TypoMp3Sidebar
+
+h2. Intro
+mp3 sidebar for "typo":https://github.com/fdv/typo
+have tested by typo5.4.4
+
+h2. live demo
+"wxianfeng.com":http://wxianfeng.com
+
+Copyright (c) 2011 [wxianfeng], released under the MIT license
