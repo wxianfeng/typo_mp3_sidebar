@@ -1,0 +1,21 @@
+<h3><%=h sidebar.title %></h3>
+<style type="text/css">
+  .onebit_mp3 a { color: #CC0000; }
+</style>
+<script type="text/javascript" src="/onebit/mp3/swfobject.js"></script>
+<script type="text/javascript" src="/onebit/mp3/1bit.js"></script>
+<script type="text/javascript">
+  oneBit = new OneBit('/onebit/mp3/1bit.swf');
+  oneBit.ready(function() {
+    // Using specify you can set 'color', 'background', 'playerSize', 'position' and 'analytics' - all are optional
+    oneBit.specify('background', 'transparent');
+    oneBit.specify('playerSize', '15');
+    oneBit.specify('analytics', true);
+    oneBit.specify('color', '#CC0000');
+    // Apply is called after options are specified and includes the CSS selector
+    oneBit.apply('a');
+  });
+</script>
+<div>    
+  <p>老男孩 <a href="/onebit/mp3/laonanhai.mp3"></a></p>
+</div>
